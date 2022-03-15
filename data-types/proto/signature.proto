@@ -6,6 +6,8 @@ option java_multiple_files = true;
 option java_package = "eu.surething_project.core";
 option java_outer_classname = "SignatureProto";
 
+option go_package = "eu.surething_project.core";
+
 // signature definition
 message Signature {
   bytes value = 1; // binary value of signature
