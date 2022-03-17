@@ -10,8 +10,8 @@ option go_package = "eu.surething_project.core";
 
 import "google/protobuf/empty.proto";
 import "google/protobuf/timestamp.proto";
-import "latlng.proto";
-import "localized_text.proto";
+import "google/type/latlng.proto";
+import "google/type/localized_text.proto";
 
 // Location schemas - alternatives
 message Location {
