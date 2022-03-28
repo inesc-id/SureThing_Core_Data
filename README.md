@@ -5,6 +5,7 @@ The underlying representation format is **protobuf** (Protocol Buffers).
 
 - `data-types/` - contains the protobuf definitions
 - `java-marshaller/` - contains Java classes that can represent the types
+- `java-marshaller-lite/` - contains Java classes that can represent the types on Android
 - `python-marshaller/` - contains Python code to represent the types
 
 ## Entities
